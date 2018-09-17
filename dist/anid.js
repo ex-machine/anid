@@ -9,6 +9,9 @@
 	}
 })(this, function () {
 
+var symbols = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+var symbolsCount = 62;
+
 return function (length, lowercase) {
 	length = length > 24 ? 24 : +length || 8;
 
@@ -24,9 +27,6 @@ return function (length, lowercase) {
 			return string.slice(0, length);
 		}
 	} else {
-		var symbols = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-		var symbolsCount = 62;
-
 		var maxDecimalString = Math.pow(symbolsCount, length) + '';
 		var maxDecimalLength = +(maxDecimalString.split('e+')[1] || maxDecimalString.length) + 1;
 
