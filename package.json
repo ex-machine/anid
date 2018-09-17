@@ -1,6 +1,6 @@
 {
   "name": "anid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another unique alphanumeric id generator",
   "main": "dist/anid.js",
   "scripts": {
@@ -13,6 +13,14 @@
     "test": "jest --coverage"
   },
   "author": "ex-machine",
+  "homepage": "https://github.com/ex-machine/anid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex-machine/anid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ex-machine/anid/issues"
+  },
   "license": "MIT",
   "keywords": [
     "alphabetical",
