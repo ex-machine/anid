@@ -1,6 +1,6 @@
 {
   "name": "anid",
-  "version": "1.0.0-pre.2",
+  "version": "1.0.0",
   "description": "Yet another unique alphanumeric id generator",
   "main": "dist/anid.js",
   "scripts": {
