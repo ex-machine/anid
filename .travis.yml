@@ -1,0 +1,26 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+  - node_modules
+
+git:
+  depth: 10
+
+before_install:
+  - npm up -g npm
+  - npm --version
+
+after_success:
+  - ./node_modules/.bin/coveralls --verbose < test/coverage/lcov.info
+
+script:
+- npm test
+- npm run coveralls
