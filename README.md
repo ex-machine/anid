@@ -65,9 +65,9 @@ var anidLong = Anid(24);
 console.log(anid()); // mXAL9KWY
 console.log(anidLowercase()); // pumlrb7e
 console.log(anidLong()); // NIJ174LksMaOOmykKkYce2UC
-```
 
 </script>
+```
 
 ## License
 
