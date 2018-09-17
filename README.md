@@ -11,7 +11,7 @@ Yet another unique **a**lpha**n**umeric **id** generator.
 * UMD format, works in Node.js and browsers
 * small footprint
 
-[![Build Status](https://travis-ci.org/ex-machine/anid.svg?branch=master)](https://travis-ci.org/ex-machine/anid) [![Coverage Status](https://coveralls.io/repos/github/ex-machine/anid/badge.svg)](https://coveralls.io/github/ex-machine/anid) [![Less than 1 Kb](https://badge-size.herokuapp.com/ex-machine/anid/master/dist/anid.min.js)](https://github.com/ex-machine/anid.js/blob/master/dist/anid.min.js) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Build Status](https://api.travis-ci.com/ex-machine/anid.svg?branch=master)](https://travis-ci.com/ex-machine/anid) [![Coverage Status](https://coveralls.io/repos/github/ex-machine/anid/badge.svg)](https://coveralls.io/github/ex-machine/anid) ![gzip size](https://img.badgesize.io/https://raw.githubusercontent.com/ex-machine/anid/master/dist/anid.min.js?compression=gzip) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Installation
 
